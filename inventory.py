@@ -23,12 +23,6 @@ class Shoe:
         self.cost = cost
         self.quantity = quantity
 
-    def get_cost(self):
-        return self.cost
-
-    def get_quantity(self):
-        return self.quantity
-
     def __str__(self):
         return f"Shoe({self.country}, {self.code}, {self.product}, {self.cost}, {self.quantity})"
 
